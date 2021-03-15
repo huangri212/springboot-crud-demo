@@ -11,9 +11,9 @@
     <description>Spring Boot Web Application</description>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.1.RELEASE</version>
+        <groupId>com.guahao.spring.boot</groupId>
+        <artifactId>guahao-spring-boot-parent</artifactId>
+        <version>1.4.4</version>
         <relativePath/>
     </parent>
 
@@ -45,10 +45,16 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-test</artifactId>
+            <version>1.4.1.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
-        <defaultGoal>install</defaultGoal>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
