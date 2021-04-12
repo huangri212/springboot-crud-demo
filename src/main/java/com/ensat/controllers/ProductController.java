@@ -63,7 +63,6 @@ public class ProductController {
     @RequestMapping("product/new")
     public String newProduct(Model model) {
         model.addAttribute("product", new Product());
-        System.out.println("create Successfully");
         return "productform";
     }
 
